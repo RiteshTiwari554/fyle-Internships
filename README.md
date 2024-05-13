@@ -40,4 +40,4 @@ Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app wil
 ## Further help
 
 Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).# fyle-Internships

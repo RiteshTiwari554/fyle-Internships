@@ -1,0 +1,183 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin-top: 5px;
+    color: gray;
+  }
+  .social-links {
+    margin-top: 10px;
+    a {
+      margin-right: 10px;
+      color: #007bff;
+      text-decoration: none;
+    }
+  }
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  margin-bottom: 20px;
+  h2 {
+    margin-bottom: 10px;
+  }
+  p {
+    color: gray;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {}
+
+}
+
+.user-avatar {
+    width: 170px; // Adjust the width and height as needed
+    height: 170px;
+    border-radius: 50%; // Makes the container circular
+    overflow: hidden; // Ensures the image doesn't overflow
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // transform: translate(0%, 0);
+  
+    img {
+      max-width: 100%; // Ensure the image doesn't exceed the container size
+      max-height: 100%;
+    }
+  }
+
+  .grayscale {
+    filter: grayscale(100%);
+  }
+
+  .image {
+    background-color: gray;
+  color: white; // Set text color to white for visibility
+  font-size: 18px; // Adjust the font size as needed
+  text-align: center; // Center the text horizontally
+  line-height: 150px; // Center the text vertically
+  width: 165px; // Adjust the width and height as needed
+  height: 165px;
+  border-radius: 50%; // Makes the container circular
+  overflow: hidden; // Ensures the content doesn't overflow
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .user-avatar::after {
+    content: '';
+    position: absolute;
+    top: 10;
+    left: 20;
+    padding:20px;
+    width: 175px;
+    height: 175px;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: -1;
+  }
+  
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+  }
+
+  .another-column{
+    display: flex;
+    float: left;
+    padding-left: 0%;
+    padding-bottom: 20px;
+    // width: 50%;
+    width: 150px; // Adjust the width and height as needed
+    height: 150px;
+    // border-radius: 50%; // Makes the container circular
+    overflow: hidden; // Ensures the image doesn't overflow
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .UserInfo {
+    font-size: 28px;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    // display: flex;
+    // justify-content: center; // Align horizontally to the center
+    // align-items: center; // Align vertically to the center
+    // position: absolute; // Position absolutely
+    top: 50%; // Align to the vertical center of the page
+    left: 50%; // Align to the horizontal center of the page
+    transform: translate(-100%, -600%); // Center the element
+  }
+
+  .bio{
+    top: 0%;
+    left: 110%;
+    right: 100%;
+    text-align: center;
+    font-size: small;
+    width: 300px;
+    height: 40px;
+    transform:translate();
+    padding-top: 10%;
+  
+    margin-right: 100px;
+  }
+  

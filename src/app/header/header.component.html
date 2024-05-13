@@ -1,0 +1,80 @@
+
+<body>
+  <header>
+    <div class="profile">
+        <div class="user-avatar">
+            <img [src]="user?.avatar_url" alt="Image" class="image">
+        </div>
+      <h2>{{ user?.name}}</h2>
+      <p>{{user?.location}}</p>
+      <div class="bio">
+        <a>twitter {{user?.twitter_username}}</a>
+        <a>Github {{user?.html_url}}</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Heroes</h2>
+      <p>Heroes description goes here</p>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Javascript</li>
+        <li>Angular</li>
+        <li>AngularJS</li>
+        <li>Angular 2+</li>
+      </ul>
+      <ul>
+        <li>Javascript</li>
+        <li>Angular</li>
+        <li>AngularJS</li>
+      </ul>
+      <ul>
+        <li>Javascript</li>
+        <li>Angular</li>
+        <li>AngularJS</li>
+        <li>Angular 2+</li>
+      </ul>
+    </section>
+    <section class="pagination">
+      <a href="#">← Older</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">7</a>
+      <a href="#">8</a>
+      <a href="#">9</a>
+      <a href="#">Newer →</a>
+    </section>
+  </main>
+</body>
+
+
+<!-- <div class="Container">
+    <div class="header">
+        <div class="user-avatar">
+            <img [src]="user?.avatar_url" alt="Image" class="image">
+        </div>
+        </div>
+        <div class="UserInfo">
+            <h2>{{user?.login}}</h2>
+            <p class="bio" alt="bio's goes here">{{ user?.bio}}</p>
+            <i class="fas fa-map-marker-alt"></i> 
+            <p>{{user?.location}}</p>
+          </div>
+</div> -->
+
+
+<!-- <div class="header">
+<div class="user-avatar">
+    <img src="" alt="Image" class="image"/>
+</div>
+<div class="Info">
+    info
+</div>
+</div> -->
